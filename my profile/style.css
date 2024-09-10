@@ -1,0 +1,120 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#middle-container{
+    margin: 100px 0;
+}
+
+
+
+
+
+.title-text{
+    background-image:url(./images/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+h1 {
+        color: #66bfbf;
+        font-size: 5.625rem;
+        margin: 50px auto 0 auto;
+        font-family: "Sacramento", cursive; 
+    }
+
+h2 {    
+        color: #66bfbf;
+        font-family: "Montserrat", sans-serif;
+        font-size: 2.5rem;
+        font-weight:normal;
+        padding-bottom: 10px;
+    }  
+
+h3  {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    
+    }
+
+  
+p{
+    
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+        line-height: 2;
+}
+
+span{
+    font-weight:bold ;
+   
+}
+
+hr {
+    border: dotted #eaf6f9 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.photo2>img{
+    border-radius: 50%;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.photo1>img{
+    margin-top: 40px;
+}
+
+.parent{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    text-align: left;
+    row-gap: 2rem;
+    margin: 100px auto 0 auto;
+}
+
+.btn{
+    font-size: 20px;
+    background-color: #66bfbf;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px 20px ;
+    border: 0;
+    
+}
+
+.contact-me{
+    margin:50px;
+}
+
+.bottom-container{
+    background-color:#66bfbf;
+    padding: 50px 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+    color: #11999e;
+    margin: 10px 20px;
+    text-decoration: none;
+    
+   
+}
+
+.bottom-container>p{
+    color: aliceblue;
+   padding: 40px 0 0 0;
+   font-size: 0.80rem
+}
